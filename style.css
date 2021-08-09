@@ -1,0 +1,257 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html h1 {
+  font-family: 'Gabriela', serif;
+}
+
+.header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #5c5c5c;
+  -webkit-box-shadow: 3px 0 3px black;
+          box-shadow: 3px 0 3px black;
+  z-index: 1000;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: white;
+  margin-left: 100px;
+}
+
+.header-inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+.header-inner nav {
+  margin-left: auto;
+  height: 100%;
+}
+
+.header-inner nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.header-inner nav ul .header-list {
+  width: 20em;
+  height: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.header-inner nav ul .header-list:last-of-type {
+  background-color: #fcee76;
+}
+
+.header-inner nav ul a {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 20px;
+  display: block;
+}
+
+.header-inner nav ul a span {
+  font-size: 12px;
+}
+
+.kv-inner {
+  margin-top: 70px;
+  width: 100%;
+  height: 700px;
+  background: url(../img/img02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.kv-inner h1 {
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.about-inner {
+  padding: 60px 0;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.about-inner h2 {
+  font-size: 48px;
+  font-family: 'Gabriela', serif;
+  color: #fcee76;
+  text-align: center;
+}
+
+.about-inner p {
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+#service {
+  width: 100%;
+  background: url(../img/img01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.service-inner {
+  padding: 60px 0;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.service-inner h2 {
+  font-size: 48px;
+  font-family: 'Gabriela', serif;
+  color: #000000;
+  text-align: center;
+}
+
+.service-inner .menuarea {
+  margin-top: 60px;
+  height: 255px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.service-inner .menuarea .list {
+  border-bottom: 2px solid black;
+  padding: 20px 0 3px 0;
+  margin: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service-inner .menuarea .list p {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.service-inner .menuarea .list .price {
+  margin-left: auto;
+}
+
+.service-inner .menuarea .list .price span {
+  font-size: 14px;
+}
+
+#gallery {
+  background-color: #fcee76;
+}
+
+.gallery-inner {
+  max-width: 1040px;
+  padding: 60px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery-inner h2 {
+  font-size: 48px;
+  font-family: 'Gabriela', serif;
+  color: #000000;
+  text-align: center;
+}
+
+.gallery-inner .imgarea {
+  margin: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery-inner .imgarea p {
+  width: 33%;
+  margin-bottom: 20px;
+}
+
+.gallery-inner a {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 20px;
+  padding: 13px 54px;
+}
+
+.access-inner {
+  max-width: 1040px;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+.access-inner h2 {
+  font-size: 48px;
+  font-family: 'Gabriela', serif;
+  color: #000000;
+  text-align: center;
+}
+
+.access-inner .accessarea {
+  margin: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.access-inner .accessarea p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.access-inner .accessarea .googlemap {
+  margin-left: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #5c5c5c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer p {
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
